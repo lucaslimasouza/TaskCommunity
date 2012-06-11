@@ -1,5 +1,6 @@
 class AddIndexAtListAndTask < ActiveRecord::Migration
   def up
+	add_index(:lists, :user_id)
   end
 
   def down

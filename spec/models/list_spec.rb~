@@ -2,31 +2,38 @@ require 'spec_helper'
 
 describe List do
 
-	before(:each) do
+	before do
 		@user_mock = mock_model(User)
-		@user_mock.should_receive(:id).and_return(1)
-		@list = List.new :name => "Mini-app TaskCommunity", :status => "public", :user_id => @user_mock.id
+		#@user_mock.should_receive(:id).and_return(1)
+		@list = new_list
 	end
 
 	context "of new" do
+		before(:each) do
+		  @list = List.new
+		end
 
 		it "should be saved" do
+			@list = new_list
+			@list.valid?should be_true
 			@list.save.should be_true
 		end
 
 		it "validate presence of name" do
-			@list.valid?.should be_true
-			@list.name = nil
+			@list.status="public"
+			@list.user_id=@user_mock.id
 			@list.valid?.should be_false
 		end
 
 		it "validate presence of status" do
-			@list.status = nil
+			@list.name="Mini-app TaskCommunity"
+			@list.user_id=@user_mock.id
 			@list.valid?.should be_false
 		end
 
 		it "validate presence of User" do
-			@list.user_id = nil
+			@list.name="Mini-app TaskCommunity"
+			@list.status="public"
 			@list.valid?.should be_false
 		end
 
@@ -72,5 +79,11 @@ describe List do
 			@list.valid?.should be_false
 		end
 
+	end
+
+	private
+
+	def new_list
+		List.new :name => "Mini-app TaskCommunity", :status => "public", :user_id => @user_mock.id
 	end
 end

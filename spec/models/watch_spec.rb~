@@ -25,7 +25,8 @@ describe Watch do
 		end
 
 		it "should be saved" do
-			@watch = Watch.new :list_id => @list_mock.id, :user_id => @user_mock.id
+			@watch.list_id= @list_mock.id
+			@watch.user_id= @user_mock.id
 			@watch.save.should be_true
 		end
 

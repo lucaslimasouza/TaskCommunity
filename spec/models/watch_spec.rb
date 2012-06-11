@@ -25,6 +25,7 @@ describe Watch do
 		end
 
 		it "should be saved" do
+			@watch.save.should be_false
 			@watch.list_id= @list_mock.id
 			@watch.user_id= @user_mock.id
 			@watch.save.should be_true
