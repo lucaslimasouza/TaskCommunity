@@ -3,6 +3,14 @@ TaskCommunity::Application.routes.draw do
   devise_for :users
 
   resources :home, :only => :index
+  resources :lists
+  resources :watches, :only => :index do
+	  get 'add',:on => :member
+	end
+  match 'watches/user' => 'watches#user_watches'
+  resources :users, :only => :show
+  match 'user_lists' => 'lists#user_lists'
+
   root :to => "home#index"
 
 

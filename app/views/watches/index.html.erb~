@@ -1,0 +1,5 @@
+
+<% @watches.each do |watch| %>
+
+<%= watch.user.email %>
+<% end %>

@@ -1,0 +1,23 @@
+
+<%=simple_form_for @list do |f| %>
+
+	<p>
+		<%=f.label :name %><br />
+		<%=f.text_field :name %>
+		<%=f.collection_radio_buttons :status, [['public','Public'],['private','Private']], :first, :last  %>
+		<%=f.hidden_field :user_id, current_user.id %>
+	</p>
+
+	<div id="tasks">
+		<h3> Taks</h3>
+
+		<%=f.simple_fields_for :tasks do |task_form| %>
+			<%= render 'task_form', :f => task_form %>
+		<% end %>
+
+
+	</div>
+
+	<%= f.submit "Submit"%> <%= link_to_add_fields("Add task",f,:tasks)%>
+
+<% end %>

@@ -1,0 +1,5 @@
+
+<%=simple_form_for @watch do |f| %>
+	<%=f.hidden_field :list_id, list.id %>
+	<%=f.submit 'Watch' %>
+<% end %>

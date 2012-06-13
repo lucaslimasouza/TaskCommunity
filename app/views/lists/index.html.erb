@@ -1,0 +1,21 @@
+
+<% @lists.each do |list| %>
+
+<h3>List Name</h3>
+<%=h list.name %> <%= link_to "Show and Watch", list_path(list) %>
+
+<table>
+
+	<tr>
+		<th>Tasks</th>
+	</tr>
+
+	<% list.tasks.each do |task| %>
+		<tr>
+			<td> <%= task.name %> </td>
+		</tr>
+	<% end %>
+
+</table> <br />
+
+<% end %>

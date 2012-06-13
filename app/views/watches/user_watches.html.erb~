@@ -1,0 +1,6 @@
+
+<%= @user_watches.each do |watch| %>
+
+<%= watch.list.name %>
+
+<%end%>

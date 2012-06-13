@@ -1,6 +1,6 @@
 class Watch < ActiveRecord::Base
 
-  has_one :list
+  belongs_to :list
   belongs_to :user
 
   validates_presence_of :list_id, :user_id

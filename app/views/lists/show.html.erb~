@@ -1,0 +1,6 @@
+
+<h1><%=@list.name %></h1> <%= link_to 'Watch' %>
+<h3>Tasks</h3>
+<%@list.tasks.each do |task| %>
+	<%=task.name %> <br/>
+<% end %>

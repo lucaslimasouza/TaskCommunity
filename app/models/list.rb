@@ -2,7 +2,7 @@ class List < ActiveRecord::Base
 
   validates_presence_of :name, :status, :user_id
 
-  attr_accessible :name, :status, :user_id
+  attr_accessible :name, :status, :user_id, :tasks_attributes
   has_many :tasks, :dependent => :destroy
   belongs_to :user
 
