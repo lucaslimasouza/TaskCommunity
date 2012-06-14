@@ -24,6 +24,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'carrierwave'
 gem 'simple_form'
+gem 'responders'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.10.1"

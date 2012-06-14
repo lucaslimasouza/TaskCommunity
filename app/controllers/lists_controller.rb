@@ -2,14 +2,6 @@
 
 class ListsController < ApplicationController
 
-
-	def index
-		@lists = List.where(:user_id => "<> #{current_user}").public
-		respond_to do |format|
-      			format.html
-		end
-	end
-
 	def new
 		@list = List.new
 		1.times {@list.tasks.build}
@@ -18,12 +10,8 @@ class ListsController < ApplicationController
 	def create
 		@list = List.new(params[:list])
 		@list.user=(current_user)
-		if @list.save
-		 flash[:notice] = "Successfully created survey."
-		 redirect_to root_url
-		else
-		      render :action => 'new'
-		end
+		@list.save
+		respond_with(@list)
 	end
 
 	def edit
@@ -32,12 +20,8 @@ class ListsController < ApplicationController
 
 	def update
 		@list = List.find(params[:id])
-		if @list.update_attributes(params[:list])
-			flash[:notice] = "Successfully created survey."
-		 	redirect_to root_url
-		else
-			render :action => 'index'
-		end
+		@list.update_attributes(params[:list])
+		respond_with(@list)
 	end
 
 	def show
@@ -46,8 +30,6 @@ class ListsController < ApplicationController
 
 	def user_lists
 		@user_lists = current_user.lists
-		respond_to do |format|
-			format.html
-		end
+		respond_with @user_lists
 	end
 end

@@ -10,7 +10,11 @@ TaskCommunity::Application.routes.draw do
 	end
   match 'watches/user' => 'watches#user_watches'
 
-  resources :users, :only => :show
+  resources :users, :only => :show #do
+	#resources :lists
+	#resources :watches, :only => :index
+  #end
+
   match 'user_lists' => 'lists#user_lists'
 
   root :to => "home#index"
