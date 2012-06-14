@@ -1,4 +1,4 @@
-<% @lists.each do |list| %>
+<% @user_lists.each do |list| %>
 
 <h3>List Name</h3>
 <%=h list.name %> <%= link_to "Edit", edit_list_path(list) %>

@@ -1,0 +1,23 @@
+<h1>Publics Lists</h1>
+<% @lists_public.each do |list| %>
+	<div class="lists">
+
+		<span id="list_name"><%=h list.name %></span>
+		 <%= link_to "Show and Watch", list_path(list) %>
+
+		<h3>Tasks</h3>
+
+		<ul id="tasks">
+
+                <% list.tasks.each do |task| %>
+			<li>
+				<td> <%= task.name %> </td>
+			</li>
+
+		<% end %>
+
+ 		</ul><br />
+
+	</div>
+
+<% end %>

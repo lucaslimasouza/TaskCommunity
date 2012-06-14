@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>TaskCommunity</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
-<script>
+
+<%= render 'layouts/contener_top'%>
+
+<div class="structure">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+	<ul class="menu_user">
+	  <%= render 'users/menu/registration_items' %>
+	  <%= render 'users/menu/login_items' %>
+	  <%= render 'users/menu/watch' %>
+	</ul>
+
+	<div class="contener_body">
 
 
-</script>
-<ul class="menu_user">
-  <%= render 'users/menu/registration_items' %>
-  <%= render 'users/menu/login_items' %>
-</ul>
-<%= yield %>
+
+		<%= yield %>
+
+	</div>
+
+</div>
+
+<%= render 'layouts/footer' %>
 
 </body>
 </html>

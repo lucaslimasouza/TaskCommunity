@@ -1,6 +1,22 @@
 
-<h1><%=@list.name %></h1> <%= link_to 'Watch' %>
-<h3>Tasks</h3>
-<%@list.tasks.each do |task| %>
-	<%=task.name %> <br/>
-<% end %>
+<h1><%=@list.name %></h1>
+
+<div class="lists">
+	<ul>
+		<li>
+			<%= link_to 'Watch', add_watch_path %>
+		</li>
+	</ul
+
+
+
+	<h3>Tasks</h3>
+
+	<ul id="tasks">
+
+	<%@list.tasks.each do |task| %>
+		<li>
+			<%=task.name %> <br/>
+		</li>
+	<% end %>
+</div>

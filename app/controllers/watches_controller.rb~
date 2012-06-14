@@ -23,4 +23,11 @@ class WatchesController < ApplicationController
 		end
 	end
 
+	def user_watches
+		@user_watches = current_user.watches
+		respond_to do |format|
+			format.html
+		end
+	end
+
 end

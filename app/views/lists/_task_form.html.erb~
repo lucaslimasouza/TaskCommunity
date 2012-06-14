@@ -1,4 +1,7 @@
-
-<%=f.label :name %><br />
-<%=f.text_field :name %>
-<%= link_to_remove_fields "remove", f %><br />
+<div id="task_input"
+	<%=f.label :name %><br />
+	<%=f.text_field :name, :size => 50 %>
+	<%= link_to_remove_fields("remove", f)
+		image_tag '/icons/icon_remove.png'
+	 %> Remove <br />
+</div>

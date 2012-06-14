@@ -1,7 +1,7 @@
 #encoding: utf-8
 
 class ListsController < ApplicationController
-	before_filter :authenticate_user!
+
 
 	def index
 		@lists = List.where(:user_id => "<> #{current_user}").public

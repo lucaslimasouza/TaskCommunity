@@ -1,6 +1,5 @@
 
 class WatchesController < ApplicationController
-	before_filter :authenticate_user!
 
 	def index
 		@watches = Watch.includes(:list)

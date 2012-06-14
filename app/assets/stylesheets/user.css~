@@ -1,0 +1,58 @@
+/*-------------------------------Devise */
+ul.menu_user {
+  list-style: none;
+  margin: 20px 5px 20px;
+  padding: 0;
+}
+
+ul.menu_user li {
+  display: inline;
+  border:1px solid #fff;
+  padding: 8px;
+  background-color:#3A91AA;
+}
+
+ul.menu_user li a{
+ color:#fff;
+}
+
+ul.menu_user li#new_account
+{
+  background-color:#D14836;
+}
+ul.menu_user li#my_watches
+{
+  background-color:#FFCC00;
+}
+
+div.sign
+{
+  margin:auto;
+  margin-top:20px;
+  width: 350px;
+  min-height: 250px;
+  height:auto;
+  background-color:#F1F1F1;
+  border: 1px solid #e5e5e5;
+  padding:20px 25px 15px;
+}
+div.sign h2 {
+  text-align: center;
+  color:#3A91AA;
+}
+
+div.show_user
+{
+  margin:auto;
+  margin-top: 30px;
+  width: 300px;
+  height:250;
+  background-color:#f4f4f4;
+  border: 1px solid #e5e5e5;
+}
+div.show_user div#avatar_user img
+{
+  margin-left:135px;
+  width:50px;
+  height:80px;
+}

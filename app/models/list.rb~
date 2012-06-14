@@ -9,5 +9,5 @@ class List < ActiveRecord::Base
   accepts_nested_attributes_for :tasks, :allow_destroy => true
 
   scope :private, where(:status => "private")
-  scope :public, where(:status => "public",:user_id => "<> #{current_user}")
+  scope :public, where(:status => "public", :user_id => 2)
 end

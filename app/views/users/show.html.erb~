@@ -1,2 +1,7 @@
-
-<%= @user.email%>
+<div class="show_user">
+	<div id='avatar_user'>
+	<%= image_tag @user.avatar_url.to_s%><br />
+	</div>
+	<h4>Email</h4>
+	<%= @user.email%>
+</div>
