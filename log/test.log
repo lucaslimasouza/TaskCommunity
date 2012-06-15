@@ -10290,3 +10290,144 @@ Processing by Devise::SessionsController#new as HTML
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:51:46 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:57:30 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:59:50 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:00:25 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:00:47 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:01:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:05:56 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 21:05:56', '2012-06-15 21:05:56', '127.0.0.1', 'example@mail.com', '$2a$04$H4eusTxn9B9/ZranDQyIzedXOf38jPiDK3jwYj//iTH0rTW9kjBQW', '2012-06-15 21:05:56', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 21:05:56')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 42ms (ActiveRecord: 0.0ms)
+  [1m[36m (43.4ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:06:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
