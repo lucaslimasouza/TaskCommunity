@@ -1,6 +1,0 @@
-<% if user_signed_in? %>
-	<li id="user_watches">
-		<%= link_to 'My Watches', watches_user_path %>
-	</li>
-
-<%end%>

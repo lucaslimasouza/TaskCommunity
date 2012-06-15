@@ -8,7 +8,7 @@ TaskCommunity::Application.routes.draw do
   #resources :watches, :only => :index do
 #	  get 'add',:on => :member
 #	end
-  #match 'watches/user' => 'watches#user_watches'
+ # match 'watches/user' => 'watches#user_watches'
 
   resources :users, :only => :show do
 	#resources :lists
