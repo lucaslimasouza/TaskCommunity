@@ -2,6 +2,11 @@
 
 class ListsController < ApplicationController
 
+	def index
+		@user_lists = current_user.lists
+		respond_with @user_lists
+	end
+
 	def new
 		@list = List.new
 		1.times {@list.tasks.build}
@@ -28,8 +33,9 @@ class ListsController < ApplicationController
 		@list = List.find(params[:id])
 	end
 
-	def user_lists
-		@user_lists = current_user.lists
-		respond_with @user_lists
+	def destroy
+		@list = List.find(params[:id])
+		@list.destroy
+		respond_with @list
 	end
 end

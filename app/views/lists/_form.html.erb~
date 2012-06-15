@@ -1,3 +1,15 @@
+  <% if @list.errors.any? %>
+    <div id="error">
+      <h2>It wasn't possible be saved</h2>
+
+      <ul>
+      <% @list.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
 <div class="new_list">
 	<%=simple_form_for @list do |f| %>
 
@@ -18,9 +30,7 @@
 		</div>
 
 		<%= f.submit "Submit"%>
-		<%= link_to_add_fields("Add task",f,:tasks)
-			image_tag '/icons/icon-add.png'
-		%> Add Task
+		<%=image_tag '/icons/icon-add.png'%><%= link_to_add_fields("Add task",f,:tasks)%>
 
 	<% end %>
 </div>

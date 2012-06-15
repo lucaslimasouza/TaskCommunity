@@ -59,3 +59,9 @@ div#tasks h3
 {
   color:green;
 }
+
+div#error
+{
+  margin-left:50px;
+  color:red;
+}

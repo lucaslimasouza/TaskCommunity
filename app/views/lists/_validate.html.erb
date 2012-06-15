@@ -1,0 +1,11 @@
+  <% if @list.errors.any? %>
+    <div id="error">
+      <h2>It wasn't possible be saved</h2>
+
+      <ul>
+      <% @list.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>

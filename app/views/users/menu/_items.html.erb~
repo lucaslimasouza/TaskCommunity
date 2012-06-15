@@ -15,11 +15,11 @@
   </li>
 
   <li>
-	<%= link_to('My Lists',user_lists_path) %>
+	<%= link_to('My Lists',lists_path) %>
   </li>
 
   <li id="user_watches">
-	<%= link_to 'My Watches', user_watches_path(user_session) %>
+	<%= link_to 'My Watches', watches_user_path %>
   </li>
 
   <li>

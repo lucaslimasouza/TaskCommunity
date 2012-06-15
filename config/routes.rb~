@@ -5,17 +5,14 @@ TaskCommunity::Application.routes.draw do
   resources :home, :only => :index
   resources :lists
 
-  #resources :watches, :only => :index do
-#	  get 'add',:on => :member
-#	end
- # match 'watches/user' => 'watches#user_watches'
+  resources :watches, :only => [:index, :destroy] do
+	  get 'add',:on => :member
+	end
 
-  resources :users, :only => :show do
+  resources :users, :only => :show #do
 	#resources :lists
-	resources :watches, :only => :index
-  end
-
-  match 'user_lists' => 'lists#user_lists'
+	#resources :watches, :only => :index
+  #end
 
   root :to => "home#index"
 
