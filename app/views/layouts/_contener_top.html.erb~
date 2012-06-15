@@ -1,0 +1,8 @@
+
+<div class="contener_top">
+	<div class="banner">
+		<div id="logo"> <%= image_tag '/imgs/logo.png'</div>
+
+	</div>
+
+</div>

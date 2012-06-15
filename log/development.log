@@ -42669,3 +42669,1153 @@ Served asset /application.js - 304 Not Modified (1ms)
   [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
   [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
   [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Processing by ListsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered lists/_validate.html.erb (0.6ms)
+  Rendered lists/_task_form.html.erb (1.8ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (258.9ms)
+  Rendered lists/new.html.erb within layouts/application (266.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 461ms (Views: 330.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /list.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /user.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /list.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:19:17 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9agGlGphcQiYZacWFaA7oLyetS3yK8jyAsS9Kzkhl2I=", "list"=>{"name"=>"number", "tasks_attributes"=>{"0"=>{"name"=>"1", "_destroy"=>"false"}, "1339798762176"=>{"name"=>"", "_destroy"=>"1"}, "1339798983681"=>{"name"=>"2", "_destroy"=>"false"}, "1339799084271"=>{"name"=>"3", "_destroy"=>"false"}, "1339799086328"=>{"name"=>"4", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered lists/_validate.html.erb (0.6ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (12.3ms)
+  Rendered lists/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:48 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 19:24:54 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9agGlGphcQiYZacWFaA7oLyetS3yK8jyAsS9Kzkhl2I=", "list"=>{"name"=>"number", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"1", "_destroy"=>"false"}, "1"=>{"name"=>"2", "_destroy"=>"false"}, "2"=>{"name"=>"3", "_destroy"=>"false"}, "3"=>{"name"=>"4", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `lists` (`created_at`, `name`, `status`, `updated_at`, `user_id`) VALUES ('2012-06-15 22:24:54', 'number', 'public', '2012-06-15 22:24:54', 1)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 22:24:54', 10, '1', '2012-06-15 22:24:54')
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 22:24:54', 10, '2', '2012-06-15 22:24:54')[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 22:24:54', 10, '3', '2012-06-15 22:24:54')
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 22:24:54', 10, '4', '2012-06-15 22:24:54')[0m
+  [1m[35m (101.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/lists/10
+Completed 302 Found in 123ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/10" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.3ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 10 LIMIT 1
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10[0m
+  Rendered lists/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /list.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:55 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Processing by ListsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered lists/_validate.html.erb (0.1ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (7.9ms)
+  Rendered lists/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:24:58 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Processing by ListsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.4ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`user_id` = 1
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 1[0m
+  [1m[35mTask Load (0.2ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 2
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 6[0m
+  [1m[35mTask Load (0.2ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 7
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10[0m
+  Rendered lists/index.html.erb within layouts/application (11.7ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /list.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:01 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/lists/10/edit" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Processing by ListsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 10 LIMIT 1[0m
+  Rendered lists/_validate.html.erb (0.1ms)
+  [1m[35mTask Load (0.2ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (49.9ms)
+  Rendered lists/edit.html.erb within layouts/application (51.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:11 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started PUT "/lists/10" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Processing by ListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9agGlGphcQiYZacWFaA7oLyetS3yK8jyAsS9Kzkhl2I=", "list"=>{"name"=>"number", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"1", "_destroy"=>"false", "id"=>"15"}, "1"=>{"name"=>"2", "_destroy"=>"false", "id"=>"16"}, "2"=>{"name"=>"3", "_destroy"=>"false", "id"=>"17"}, "3"=>{"name"=>"4", "_destroy"=>"1", "id"=>"18"}}}, "commit"=>"Submit", "id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 10 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTask Load (50.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10 AND `tasks`.`id` IN (15, 16, 17, 18)
+  [1m[36mSQL (16.9ms)[0m  [1mDELETE FROM `tasks` WHERE `tasks`.`id` = 18[0m
+  [1m[35m (57.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/lists/10
+Completed 302 Found in 137ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/10" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 10 LIMIT 1
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10[0m
+  Rendered lists/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:16 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Processing by ListsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`user_id` = 1[0m
+  [1m[35mTask Load (0.4ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 1
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 2[0m
+  [1m[35mTask Load (0.2ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 6
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 7[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10
+  Rendered lists/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /application.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:25:17 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Processing by ListsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`user_id` = 1
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 1[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 2
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 6[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 7
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 10[0m
+  Rendered lists/index.html.erb within layouts/application (10.7ms)
+Compiled list.js  (0ms)  (pid 7813)
+Compiled application.js  (3ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /list.js - 200 OK (1ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:31 -0300
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Processing by ListsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered lists/_validate.html.erb (0.1ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (38.8ms)
+  Rendered lists/new.html.erb within layouts/application (39.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:26:33 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Processing by ListsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered lists/_validate.html.erb (0.0ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (6.3ms)
+  Rendered lists/new.html.erb within layouts/application (7.0ms)
+Compiled application.css  (1ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:26 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.3ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 50.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:29 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:31 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /list.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /list.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:31:49 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Compiled application.css  (1ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:11 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Compiled application.css  (1ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:38 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Compiled application.css  (1ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:32:54 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:33:17 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Compiled application.css  (1ms)  (pid 7813)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:33:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:53:38 -0300
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 17ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (35.9ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 536ms (Views: 420.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /jquery.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /list.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /list.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:39 -0300
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_contener_top.html.erb (0.6ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:53:53 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.1ms)
+Compiled application.css  (1ms)  (pid 2339)
+  Rendered layouts/_contener_top.html.erb (0.2ms)
+  Rendered users/menu/_items.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:23 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.6ms)
+Compiled application.css  (1ms)  (pid 2339)
+  Rendered layouts/_contener_top.html.erb (0.2ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:43 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.3ms)
+Compiled application.css  (1ms)  (pid 2339)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:54:51 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:55:19 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AU7z9pWRQabhz0v2L8D7AFIegKclP+ZLLe5+RgkyOwc=", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1[0m
+Completed 401 Unauthorized in 211ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AU7z9pWRQabhz0v2L8D7AFIegKclP+ZLLe5+RgkyOwc=", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_contener_top.html.erb (0.2ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 124ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:20 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:55:26 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AU7z9pWRQabhz0v2L8D7AFIegKclP+ZLLe5+RgkyOwc=", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (17.7ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2012-06-15 21:20:16', `current_sign_in_at` = '2012-06-15 22:55:26', `sign_in_count` = 21, `updated_at` = '2012-06-15 22:55:26' WHERE `users`.`id` = 1
+  [1m[36m (67.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 322ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  [1m[35mTask Load (0.3ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5[0m
+  Rendered home/index.html.erb within layouts/application (123.0ms)
+  Rendered layouts/_contener_top.html.erb (0.2ms)
+  Rendered users/menu/_items.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 173ms (Views: 147.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:27 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AU7z9pWRQabhz0v2L8D7AFIegKclP+ZLLe5+RgkyOwc="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_contener_top.html.erb (0.2ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /user.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 19:55:36 -0300
+Served asset /application.js - 304 Not Modified (1ms)
