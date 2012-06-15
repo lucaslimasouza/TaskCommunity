@@ -41672,3 +41672,343 @@ Served asset /list.js - 304 Not Modified (0ms)
   [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
   [1m[36m (33.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
   [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (244.1ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (116.0ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (201.0ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (101.0ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (101.7ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (200.1ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (201.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (108.7ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (99.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (213.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (53.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (190.9ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (116.6ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (234.9ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (97.8ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (101.3ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (211.9ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (189.7ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (89.7ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (223.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (217.2ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (120.5ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.8ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (99.6ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (83.2ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (191.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (190.1ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (77.1ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (77.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (41.1ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (44.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (44.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (44.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (44.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (188.7ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (115.7ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (223.6ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (86.2ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (106.8ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (200.1ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (200.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (100.7ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (201.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.2ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.1ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (170.7ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (115.2ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (189.6ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (88.4ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (100.9ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (191.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (200.8ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (86.4ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (98.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (41.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.2ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (203.1ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (117.1ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (211.3ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (110.7ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (112.2ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (223.0ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (201.7ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (86.3ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (101.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (201.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (55.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (212.3ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (104.9ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (189.6ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (88.1ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (92.1ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (245.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (213.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (77.3ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (77.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (189.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.1ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (221.1ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.5ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (114.4ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (190.3ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (100.7ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (85.8ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (189.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (201.6ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (109.7ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (44.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (216.3ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (183.6ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (169.4ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (88.5ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (111.6ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (200.5ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (212.5ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (98.2ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (88.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (179.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (44.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (46.0ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (44.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (44.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (44.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (248.8ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (105.2ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (189.8ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (86.8ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (101.7ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (202.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (189.9ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.5ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (77.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (179.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (186.1ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (104.8ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.3ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (110.6ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (112.1ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (222.9ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (202.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.4ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (88.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (44.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (44.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (179.6ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.5ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (112.6ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.4ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (110.8ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (112.6ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (201.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (188.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (99.5ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (214.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (53.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (195.8ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (116.5ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (224.8ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (99.5ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (89.0ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (189.8ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (190.0ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.4ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (77.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (44.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (44.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (195.1ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (105.0ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (223.0ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (108.8ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (110.4ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (214.0ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (222.3ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (99.4ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (89.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (234.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (44.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (44.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (44.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (206.4ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (103.7ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.5ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (123.2ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (113.3ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (201.0ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (201.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.3ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (88.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (201.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (44.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (56.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (55.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (55.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (237.4ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (107.5ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.9ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (77.5ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (79.9ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (189.8ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (201.3ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (97.5ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (88.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (192.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (41.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (267.7ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.4ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (115.9ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (200.2ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (88.2ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (91.8ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (212.0ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (224.8ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (110.5ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (201.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')

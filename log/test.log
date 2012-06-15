@@ -9973,3 +9973,320 @@ Processing by Devise::SessionsController#new as HTML
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
   [1m[35m (28.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:12:48 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:12:48 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:13:58 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (60.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 121ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:13:58 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 41ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:15:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:15:16 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 40ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:17:32 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.4ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:17:33 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:19:17 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:19:17 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:19:51 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.6ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:19:51 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:24:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:25:25 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:25:25 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:37:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:37:59 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 42ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:39:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:39:37 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 39ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 17:42:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
