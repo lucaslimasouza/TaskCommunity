@@ -1,20 +1,10 @@
-  <% if @list.errors.any? %>
-    <div id="error">
-      <h2>It wasn't possible be saved</h2>
-
-      <ul>
-      <% @list.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+<%= render 'validate' %>
 
 <div class="new_list">
 	<%=simple_form_for @list do |f| %>
 
 		<p>
-			<%=f.label :name %><br />
+			<%=f.label :name, "Name List:" %><br />
 			<%=f.text_field :name, :size => 50 %>
 			<%=f.collection_radio_buttons :status, [['public','Public'],['private','Private']], :first, :last  %>
 		</p>

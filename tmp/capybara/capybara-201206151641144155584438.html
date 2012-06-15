@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TaskCommunity</title>
+  <link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/application.js" type="text/javascript"></script>
+  
+</head>
+
+<body>
+
+
+<div class="contener_top">
+	<div class="banner"></div>
+
+</div>
+
+
+<div class="structure">
+
+	<p style="color: green"></p>
+
+	<ul class="menu_user">
+	    <li id="new_account">
+  	<a href="/users/sign_up">New Account</a>
+  </li>
+
+	</ul>
+
+	<div class="contener_body">
+
+
+
+		
+<h1>New List</h1>
+
+    <div id="error">
+      <h2>It wasn't possible be saved</h2>
+
+      <ul>
+        <li>User can't be blank</li>
+      </ul>
+    </div>
+
+
+<div class="new_list">
+	<form accept-charset="UTF-8" action="/lists" class="simple_form new_list" id="new_list" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+		<p>
+			<label for="list_name">Name List</label><br />
+			<input id="list_name" name="list[name]" size="50" type="text" value="Miniapp" />
+			<span><input checked="checked" id="list_status_public" name="list[status]" type="radio" value="public" /><label class="collection_radio_buttons" for="list_status_public">Public</label></span><span><input id="list_status_private" name="list[status]" type="radio" value="private" /><label class="collection_radio_buttons" for="list_status_private">Private</label></span>
+		</p>
+
+		<div id="tasks">
+			<h3> Taks</h3>
+
+			
+				<div id="task_input">
+	<label for="list_tasks_attributes_0_name">Name Task</label><br />
+	<input id="list_tasks_attributes_0_name" name="list[tasks_attributes][0][name]" size="50" type="text" value="nested attributes" />
+	<img alt="Icon_remove" src="/home/lucas/workspaceRuby/TaskCommunity/public/icons/icon_remove.png" /> <input id="list_tasks_attributes_0__destroy" name="list[tasks_attributes][0][_destroy]" type="hidden" value="false" /><a href="#" onclick="list.remove_fields(this); return false;">remove</a><br />
+</div>
+
+
+
+		</div>
+
+		<input name="commit" type="submit" value="Submit" />
+		<img alt="Icon-add" src="/home/lucas/workspaceRuby/TaskCommunity/public/icons/icon-add.png" /><a href="#" onclick="list.add_fields(this, &quot;tasks&quot;, &quot;&lt;div id=\&quot;task_input\&quot;&gt;\n	&lt;label for=\&quot;list_tasks_attributes_new_tasks_name\&quot;&gt;Name Task&lt;\/label&gt;&lt;br /&gt;\n	&lt;input id=\&quot;list_tasks_attributes_new_tasks_name\&quot; name=\&quot;list[tasks_attributes][new_tasks][name]\&quot; size=\&quot;50\&quot; type=\&quot;text\&quot; /&gt;\n	&lt;img alt=\&quot;Icon_remove\&quot; src=\&quot;/icons/icon_remove.png\&quot; /&gt; &lt;input id=\&quot;list_tasks_attributes_new_tasks__destroy\&quot; name=\&quot;list[tasks_attributes][new_tasks][_destroy]\&quot; type=\&quot;hidden\&quot; value=\&quot;false\&quot; /&gt;&lt;a href=\&quot;#\&quot; onclick=\&quot;list.remove_fields(this); return false;\&quot;&gt;remove&lt;\/a&gt;&lt;br /&gt;\n&lt;\/div&gt;\n&quot;); return false;">Add task</a>
+
+</form></div>
+
+
+
+	</div>
+
+</div>
+
+
+<div class="footer"></div>
+
+
+</body>
+</html>

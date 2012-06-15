@@ -4,7 +4,7 @@
 	<%=simple_form_for @list do |f| %>
 
 		<p>
-			<%=f.label :name %><br />
+			<%=f.label :name, "Name List" %><br />
 			<%=f.text_field :name, :size => 50 %>
 			<%=f.collection_radio_buttons :status, [['public','Public'],['private','Private']], :first, :last  %>
 		</p>

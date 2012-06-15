@@ -7895,3 +7895,2081 @@ Creating scope :public. Overwriting existing method List.public.
   [1m[36m (38.9ms)[0m  [1mROLLBACK[0m
   [1m[35m (0.1ms)[0m  BEGIN
   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 11:41:16 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/1" for 127.0.0.1 at 2012-06-15 11:43:49 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/1" for 127.0.0.1 at 2012-06-15 11:44:26 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 11:45:21 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 11:58:02 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"list"=>{"name"=>"Miniapp", "tasks_attributes"=>[{"name"=>"nested attributes"}, {"name"=>"public lists"}]}}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 11:58:02 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (43.6ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 113ms (Views: 92.0ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 12:14:40 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 12:14:40 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.6ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 100.0ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 12:23:24 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 12:23:24 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 126ms (Views: 98.5ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 12:24:10 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 12:24:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.2ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 12:25:24 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 12:25:24 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (50.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 127ms (Views: 102.0ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 12:27:18 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 12:27:18 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 99.8ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:13:19 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:13:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.7ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.4ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 13:15:44 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:15:44 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.2ms | ActiveRecord: 1.6ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:17:31 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:17:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (49.7ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 127ms (Views: 101.1ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:22:27 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:22:27 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 99.6ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:24:45 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:24:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.4ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-06-15 13:26:07 -0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:26:07 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.7ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:33:31 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:33:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 97.2ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:40:16 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:40:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.5ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 97.8ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:41:12 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:41:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.6ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 97.7ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:44:20 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:44:20 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (47.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 126ms (Views: 100.5ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:44:54 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:44:54 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 98.1ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:54:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 110ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (55.4ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:01 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 27ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:55:01 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:59 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:55:59 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:55:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:57:14 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.3ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:57:14 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:57:14 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:57:14 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:57:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.3ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 13:57:44 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 13:57:44 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.6ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (259.7ms)
+  Rendered lists/new.html.erb within layouts/application (260.6ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 371ms (Views: 264.8ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 13:57:44 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.7ms)
+  Rendered lists/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 14:00:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.8ms)
+  Rendered layouts/_contener_top.html.erb (0.5ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 14:00:11 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 14:00:11 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 14:00:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:26:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (56.4ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:26:33 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:26:33 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:26:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:27:03 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:27:03 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:27:03 -0300
+Processing by ListsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:27:03 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:34:05 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (54.2ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:34:06 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:34:06 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.4ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (262.7ms)
+  Rendered lists/new.html.erb within layouts/application (263.7ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 267.8ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:34:06 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.7ms)
+  Rendered lists/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:35:06 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (253.7ms)
+  Rendered lists/new.html.erb within layouts/application (294.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 420ms (Views: 344.3ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:35:06 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 43ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:36:03 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (252.8ms)
+  Rendered lists/new.html.erb within layouts/application (293.3ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 419ms (Views: 343.3ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:36:03 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 47ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:37:05 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (256.2ms)
+  Rendered lists/new.html.erb within layouts/application (294.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 421ms (Views: 344.7ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:37:06 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `lists` (`created_at`, `name`, `status`, `updated_at`, `user_id`) VALUES ('2012-06-15 18:37:06', 'Miniapp', 'public', '2012-06-15 18:37:06', 1)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 18:37:06', 1, 'nested attributes', '2012-06-15 18:37:06')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/lists/1
+Completed 302 Found in 64ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/1" for 127.0.0.1 at 2012-06-15 15:37:06 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.4ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 1 LIMIT 1
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 1[0m
+  Rendered lists/show.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 6.1ms | ActiveRecord: 0.7ms)
+  [1m[35m (84.3ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:38:28 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:38:29 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1[0m
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:38:29 -0300
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (261.5ms)
+  Rendered lists/new.html.erb within layouts/application (262.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 372ms (Views: 266.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:38:29 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.8ms)
+  Rendered lists/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:49:09 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:49:10 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1[0m
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:55:00 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 18:55:00', '2012-06-15 18:55:00', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$Gr8pa.aABJnn3f4p65R5Rusy4dKSpEcOIii9EKCyw0JKSjp6JLC/a', '2012-06-15 18:55:00', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 18:55:00')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (253.9ms)
+  Rendered lists/new.html.erb within layouts/application (292.7ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 414ms (Views: 343.5ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:55:01 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 15:55:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (48.0ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 15:56:59 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 18:56:59', '2012-06-15 18:56:59', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$af1/NMIPo4ZCEf2xBZhS6eZA2kWSBlJsAQRB.Ifkqqc3KJNZfIRC.', '2012-06-15 18:56:59', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 18:56:59')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (258.4ms)
+  Rendered lists/new.html.erb within layouts/application (297.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 419ms (Views: 348.0ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 15:56:59 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.6ms)
+  Rendered lists/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (47.0ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:03:40 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:03:40', '2012-06-15 19:03:40', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$w/K/W9.ypbfBvukWJTvaOeWeu2F3zo5eBlSBTNi/ZSesQaR9g/9W6', '2012-06-15 19:03:40', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:03:40')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:03:40 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mList Load (13.8ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> NULL)
+  Rendered home/index.html.erb within layouts/application (20.7ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 115ms (Views: 94.2ms | ActiveRecord: 15.4ms)
+  [1m[36m (59.9ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:04:40 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:04:40', '2012-06-15 19:04:40', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$KIaiN5yqmK1CVUC1NKREae4hCm0wWFVhUSuiXNvBCXIvrARD9wWUG', '2012-06-15 19:04:40', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:04:40')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:04:40 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mList Load (0.3ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> NULL)
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_contener_top.html.erb (0.5ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 101ms (Views: 93.4ms | ActiveRecord: 1.9ms)
+  [1m[36m (41.6ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:25:21 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:25:21', '2012-06-15 19:25:21', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$Fs1WxXeAxNR9zLwA0RcCtOnJRK6er2twDFj9pZpvwv3YTwOqPB1Hi', '2012-06-15 19:25:21', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:25:21')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (254.7ms)
+  Rendered lists/new.html.erb within layouts/application (293.6ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 416ms (Views: 344.9ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:25:22 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.7ms)
+  Rendered lists/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (36.5ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:37:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (53.3ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:37:55 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:37:55', '2012-06-15 19:37:55', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$NdN4bd7qlzPLKBVmu4f4x.nKl3KfkgB7L9peWfMQcSivvG2tGHn32', '2012-06-15 19:37:55', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:37:55')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (254.5ms)
+  Rendered lists/new.html.erb within layouts/application (293.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 417ms (Views: 343.8ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:37:56 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:37:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (49.2ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:38:34 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:38:34', '2012-06-15 19:38:34', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$1MqcoM5kwRVl4yd57bbZDeS8DlT1i/Y1UpPxgA0F4okrQWh9ROu2e', '2012-06-15 19:38:34', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:38:34')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (256.1ms)
+  Rendered lists/new.html.erb within layouts/application (295.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 418ms (Views: 346.5ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:38:35 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 7ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:38:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (41.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:39:19 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:39:19', '2012-06-15 19:39:19', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$OLuyg.MKRn/rDKT023BXYebc8U39nM8tVhI0z2B67bU.1MORgyQ3y', '2012-06-15 19:39:19', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:39:19')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (256.2ms)
+  Rendered lists/new.html.erb within layouts/application (295.7ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 418ms (Views: 346.7ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:39:20 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:39:20 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (56.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:41:14 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:41:14', '2012-06-15 19:41:14', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$6/3WQ0xO.ESLlV2yJPFWVesuVf1kZrxutHbn/L/F2/g5XvkP.DQIy', '2012-06-15 19:41:14', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:41:14')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.6ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (257.6ms)
+  Rendered lists/new.html.erb within layouts/application (297.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 419ms (Views: 347.5ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:41:14 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.7ms)
+  Rendered lists/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (30.8ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:42:26 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:42:26', '2012-06-15 19:42:26', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$AF7HFyLKvdayy5HnI5rAJOHzLMlhUkYz7i3cJGZf8h6D6wT58CzZK', '2012-06-15 19:42:26', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:42:26')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (256.1ms)
+  Rendered lists/new.html.erb within layouts/application (294.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 417ms (Views: 345.4ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:42:26 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:42:26 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (53.7ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:43:52 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:43:52', '2012-06-15 19:43:52', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$ixy7.c1f.lqu9JamOunxhOxh6EO16QmMxy9.QXpOq0hc2NMxUuGDC', '2012-06-15 19:43:52', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:43:52')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.6ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (254.8ms)
+  Rendered lists/new.html.erb within layouts/application (293.7ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 415ms (Views: 344.1ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:43:53 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:43:53 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (43.0ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:44:42 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:44:42', '2012-06-15 19:44:42', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$53ikEWRDQ2qQMZpNTorOheqnSozKJNH5jEPrxh16dd6XrohWIZIQW', '2012-06-15 19:44:42', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:44:42')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (254.3ms)
+  Rendered lists/new.html.erb within layouts/application (292.9ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 415ms (Views: 343.6ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:44:43 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `lists` (`created_at`, `name`, `status`, `updated_at`, `user_id`) VALUES ('2012-06-15 19:44:43', 'Miniapp', 'public', '2012-06-15 19:44:43', 1)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tasks` (`created_at`, `list_id`, `name`, `updated_at`) VALUES ('2012-06-15 19:44:43', 1, 'nested attributes', '2012-06-15 19:44:43')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/lists/1
+Completed 302 Found in 57ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lists/1" for 127.0.0.1 at 2012-06-15 16:44:43 -0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`id` = 1 LIMIT 1[0m
+  [1m[35mTask Load (0.3ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 1
+  Rendered lists/show.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 1.0ms)
+  [1m[35m (69.3ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:45:13 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:45:13', '2012-06-15 19:45:13', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$WXkddJVPGtQoE9X3427DTuGrFcdpvqEt6XhxTXpBt9Zw5SrUZRFWa', '2012-06-15 19:45:13', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:45:13')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (257.4ms)
+  Rendered lists/new.html.erb within layouts/application (296.1ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 418ms (Views: 347.1ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:45:13 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (5.6ms)
+  Rendered lists/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (36.6ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:47:36 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:47:36', '2012-06-15 19:47:36', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$5JZyM9rHEeFxl/v1t6O35ObtoPUVveFOdoVbHru./4WWo.WGrhk3u', '2012-06-15 19:47:36', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:47:36')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (254.3ms)
+  Rendered lists/new.html.erb within layouts/application (293.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 415ms (Views: 343.9ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:47:37 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:47:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (30.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:48:40 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:48:40', '2012-06-15 19:48:40', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$2AUDwGl0C0eu7mt9s/KHRevXinJesgH4GLXUnyLKt2NgJvfvShwdu', '2012-06-15 19:48:40', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:48:40')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (254.4ms)
+  Rendered lists/new.html.erb within layouts/application (293.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 415ms (Views: 343.8ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:48:41 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:48:41 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:48:41 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (56.6ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:50:14 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:50:14', '2012-06-15 19:50:14', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$8y2fnoeSfUai8.DcNpmJ/.OgWOqc0IECKKvnk4502RbCpXoU4Kg7q', '2012-06-15 19:50:14', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:50:14')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.9ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (302.6ms)
+  Rendered lists/new.html.erb within layouts/application (352.4ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 474ms (Views: 403.1ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:50:15 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:50:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (9.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (22.0ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:50:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (30.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:51:21', '2012-06-15 19:51:21', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$JX8nAGJKf1e42KGsb08BWuMFNTGBbWMPeRhWOj2PnlpeaK2QOMj0C', '2012-06-15 19:51:21', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:51:21')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (45.4ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (5.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-06-15 19:51:21', `sign_in_count` = 2, `updated_at` = '2012-06-15 19:51:21' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 86ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  Rendered home/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 2.2ms)
+  [1m[35m (67.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:51:21 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:51:21', '2012-06-15 19:51:21', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$idW6lkwTZk04PFeOoM73EOya1pjCDrPeKkjvGjUbNNAqOP18WJUvm', '2012-06-15 19:51:21', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:51:21')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.6ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (262.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 377ms (Views: 268.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:51:22 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:51:22 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (32.4ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:00 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:52:00', '2012-06-15 19:52:00', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$B2VBEe24xW1wBLsklu03IOYyaawNivlakfo2TmZj7ITy86y48pU2i', '2012-06-15 19:52:00', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:52:00')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:52:00 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:00 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:00 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (4.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (4.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (1.9ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-06-15 19:52:00', `sign_in_count` = 2, `updated_at` = '2012-06-15 19:52:00' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:52:00 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.9ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 2.5ms)
+  [1m[35m (99.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:52:01 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:52:01', '2012-06-15 19:52:01', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$vqZFTSRczW4MZqtnmOg/aemvIJgbkoLWsMX4dxaaty4vCNg/BaxhW', '2012-06-15 19:52:01', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:52:01')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.7ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (296.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 377ms (Views: 302.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:52:01 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (44.3ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:31 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:52:31', '2012-06-15 19:52:31', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$qpZiWR0Kpx12k54q8E0UO.8NtwHnaw5/CDkx1cdNAajpFIiE.rsJO', '2012-06-15 19:52:31', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:52:31')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:52:31 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (45.1ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 96ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:32 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-06-15 19:52:32', `sign_in_count` = 2, `updated_at` = '2012-06-15 19:52:32' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 51ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:52:32 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 2.0ms)
+  [1m[35m (50.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:52:32 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:52:32', '2012-06-15 19:52:32', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$49FSEmLuvyP7e/HrXMTMjecmPHWZ/Q4fwyKEiRYMgrUfssOlhMzwa', '2012-06-15 19:52:32', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:52:32')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.6ms)
+  Rendered lists/_task_form.html.erb (1.7ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (393.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 514ms (Views: 405.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:52:32 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:52:32 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (46.5ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:55:34', '2012-06-15 19:55:34', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$4iR2ypHoKAcV2Y6Dmd96deXltQ/4bZ8G7Gyu9b7F025I/5RFANVIS', '2012-06-15 19:55:34', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:55:34')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (49.3ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-06-15 19:55:34', `sign_in_count` = 2, `updated_at` = '2012-06-15 19:55:34' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 2.0ms)
+  [1m[35m (48.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:55:34 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:55:34', '2012-06-15 19:55:34', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$btYE4jKWF5rbY5ranhidNOvqyUrde2n7z3PtcyQojPsaIbLT0XDUm', '2012-06-15 19:55:34', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:55:34')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.6ms)
+  Rendered lists/_task_form.html.erb (1.8ms)
+  Rendered lists/_task_form.html.erb (0.7ms)
+  Rendered lists/_form.html.erb (371.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 553ms (Views: 378.4ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:55:35 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:55:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (35.8ms)[0m  ROLLBACK
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:56:58 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:56:58', '2012-06-15 19:56:58', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$jAnmxEuXTRiGgclWQlIUu./YhNacezVkW1wKyRifczFLkfvTf0r2y', '2012-06-15 19:56:58', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:56:58')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:56:58 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mList Load (0.3ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> NULL)
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_contener_top.html.erb (0.4ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 98ms (Views: 90.7ms | ActiveRecord: 1.9ms)
+  [1m[36m (41.8ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:56:59 -0300
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:56:59', '2012-06-15 19:56:59', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$LPLXZSpp9A050LWe8PnXxOrBjGhluRiCbjumsq02MhU76JQTLnGje', '2012-06-15 19:56:59', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:56:59')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (1.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (257.6ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 368ms (Views: 263.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:56:59 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered lists/_validate.html.erb (0.5ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_task_form.html.erb (0.8ms)
+  Rendered lists/_form.html.erb (5.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (43.2ms)[0m  [1mROLLBACK[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:57:35 -0300
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:57:35', '2012-06-15 19:57:35', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$ft/.vxXoJlvlTUa8bOiFwuDzxhPE6G4Tz0Bi11FKaep/4gk7sQQTi', '2012-06-15 19:57:35', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:57:35')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Devise::SessionsController#new as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:57:35 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:57:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (45.5ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:57:36 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-06-15 19:57:36', `sign_in_count` = 2, `updated_at` = '2012-06-15 19:57:36' WHERE `users`.`id` = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 51ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 16:57:36 -0300
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)[0m
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 1.8ms)
+  [1m[35m (66.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2012-06-15 16:57:36 -0300
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`avatar`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES (NULL, '2012-06-15 19:57:36', '2012-06-15 19:57:36', '127.0.0.1', 'lucaslima4p@gmail.com', '$2a$04$yu6Wdynt/9v8vGb41Vr8C.E4HLbA8Kj02xLBdhu97pWw53VZ4gmDO', '2012-06-15 19:57:36', '127.0.0.1', NULL, NULL, NULL, 1, '2012-06-15 19:57:36')[0m
+  [1m[35m (0.6ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ListsController#new as HTML
+  Rendered lists/_validate.html.erb (0.6ms)
+  Rendered lists/_task_form.html.erb (1.6ms)
+  Rendered lists/_task_form.html.erb (0.9ms)
+  Rendered lists/_form.html.erb (344.1ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 484ms (Views: 351.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2012-06-15 16:57:36 -0300
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"name"=>"Miniapp", "status"=>"public", "tasks_attributes"=>{"0"=>{"name"=>"nested attributes", "_destroy"=>"false"}}}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 16:57:36 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered layouts/_contener_top.html.erb (0.1ms)
+  Rendered users/menu/_items.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (28.4ms)[0m  ROLLBACK
