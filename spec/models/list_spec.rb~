@@ -47,8 +47,6 @@ describe List do
 						{:name => "nested attributes"},
 						{:name => "public lists"} ]}}
 		@list.save(params[:list]).should be_true
-		@li = List.create(params[:list])
-		@li.tasks.first.name.should eql("nested attibutes")
 		end
 	end
 

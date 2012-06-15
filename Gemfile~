@@ -28,6 +28,8 @@ gem 'responders'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.10.1"
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'launchy'
 end
 
 # To use ActiveModel has_secure_password

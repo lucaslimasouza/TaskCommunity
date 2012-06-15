@@ -1,4 +1,5 @@
 require 'spec_helper'
+include Warden::Test::Helpers
 
 describe "Watches" do
 

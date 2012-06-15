@@ -4,7 +4,6 @@ describe List do
 
 	before do
 		@user_mock = mock_model(User)
-		#@user_mock.should_receive(:id).and_return(1)
 		@list = new_list
 	end
 

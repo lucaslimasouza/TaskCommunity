@@ -42192,3 +42192,480 @@ Served asset /list.js - 304 Not Modified (0ms)
   [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
   [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
   [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:19:30 -0300
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 8ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:19:30 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (38.4ms)
+Completed 500 Internal Server Error in 259ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    9: </head>
+    10: 
+    11: <body>
+    12: <%= user_session.email%>
+    13: <%= render 'layouts/contener_top'%>
+    14: 
+    15: <div class="structure">
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__405925749_91955780'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:19:54 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    9: </head>
+    10: 
+    11: <body>
+    12: <%= user_session.email%>
+    13: <%= render 'layouts/contener_top'%>
+    14: 
+    15: <div class="structure">
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__405925749_91955780'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:19:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    9: </head>
+    10: 
+    11: <body>
+    12: <%= user_session.email%>
+    13: <%= render 'layouts/contener_top'%>
+    14: 
+    15: <div class="structure">
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__405925749_91955780'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:19:57 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    9: </head>
+    10: 
+    11: <body>
+    12: <%= user_session.email%>
+    13: <%= render 'layouts/contener_top'%>
+    14: 
+    15: <div class="structure">
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__405925749_91955780'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.9ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.0/app/views/devise/shared/_links.erb (0.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (39.2ms)
+  Rendered layouts/_contener_top.html.erb (0.3ms)
+  Rendered users/menu/_items.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /list.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /list.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 18:20:09 -0300
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-15 18:20:16 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9agGlGphcQiYZacWFaA7oLyetS3yK8jyAsS9Kzkhl2I=", "user"=>{"email"=>"lucaslima4p@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'lucaslima4p@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2012-06-15 13:05:16', `current_sign_in_at` = '2012-06-15 21:20:16', `sign_in_count` = 20, `updated_at` = '2012-06-15 21:20:16' WHERE `users`.`id` = 1[0m
+  [1m[35m (38.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 247ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:20:16 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Creating scope :private. Overwriting existing method List.private.
+Creating scope :public. Overwriting existing method List.public.
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.2ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (73.8ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (0.8ms)
+Completed 500 Internal Server Error in 95ms
+
+ActionView::Template::Error (undefined method `email' for {}:Hash):
+    1: <% if user_signed_in? %>
+    2: <%= user_session.email%>
+    3:   <li>
+    4: 	<%= link_to('Home', root_path) %>
+    5:   </li>
+  app/views/users/menu/_items.html.erb:2:in `_app_views_users_menu__items_html_erb__33534964_91997040'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__405925749__653746238'
+  app/controllers/home_controller.rb:7:in `index'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:21:08 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `email' for {}:Hash):
+    1: <% if user_signed_in? %>
+    2: <% user_session.email%>
+    3:   <li>
+    4: 	<%= link_to('Home', root_path) %>
+    5:   </li>
+  app/views/users/menu/_items.html.erb:2:in `_app_views_users_menu__items_html_erb__33534964_92204430'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__405925749__653746238'
+  app/controllers/home_controller.rb:7:in `index'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (7.0ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 17.4ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 18:21:38 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:22:47 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.3ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.6ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `current_user' for {}:Hash):
+    1: <% if user_signed_in? %>
+    2: <% user_session.current_user%>
+    3:   <li>
+    4: 	<%= link_to('Home', root_path) %>
+    5:   </li>
+  app/views/users/menu/_items.html.erb:2:in `_app_views_users_menu__items_html_erb__33534964__645145678'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__405925749__653746238'
+  app/controllers/home_controller.rb:7:in `index'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /list.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:08 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.3ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 18:23:34 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:23:56 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (1.8ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <% if user_signed_in? %>
+    2: session
+    3: <% user_session[:user].email%>
+    4:   <li>
+    5: 	<%= link_to('Home', root_path) %>
+    6:   </li>
+  app/views/users/menu/_items.html.erb:3:in `_app_views_users_menu__items_html_erb__33534964_88015340'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__405925749__653746238'
+  app/controllers/home_controller.rb:7:in `index'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 18:24:05 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mList Load (0.1ms)[0m  SELECT `lists`.* FROM `lists` WHERE `lists`.`status` = 'public' AND (user_id <> 1)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 3[0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT `tasks`.* FROM `tasks` WHERE `tasks`.`list_id` = 5
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_contener_top.html.erb (0.0ms)
+  Rendered users/menu/_items.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/list.css?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/list.js?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 18:24:06 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (231.7ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (113.5ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (223.5ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (99.3ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (98.1ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (234.1ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (234.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (121.7ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (79.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (201.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (197.0ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (146.0ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (234.6ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (99.4ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (99.3ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (211.2ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (212.0ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.2ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (100.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (234.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (55.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (55.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (46.0ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (44.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (221.3ms)[0m  DROP DATABASE IF EXISTS `TaskCommunity_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `TaskCommunity_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (90.1ms)[0m  CREATE TABLE `lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `status` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (189.0ms)[0m  [1mCREATE INDEX `index_lists_on_user_id` ON `lists` (`user_id`)[0m
+  [1m[35m (76.8ms)[0m  CREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `list_id` int(11)) ENGINE=InnoDB
+  [1m[36m (90.8ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `avatar` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (223.4ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (222.6ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (88.3ms)[0m  CREATE TABLE `watches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `list_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (79.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120611212155')
+  [1m[36m (33.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608194223')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608215440')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120607184831')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120607162958')
+  [1m[36m (33.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120608114533')[0m
+  [1m[35m (33.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120608125349')

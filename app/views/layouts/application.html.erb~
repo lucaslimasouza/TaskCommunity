@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+<%= user_session.email%>
 <%= render 'layouts/contener_top'%>
 
 <div class="structure">
@@ -17,9 +17,7 @@
 	<p style="color: green"><%= flash[:notice] %></p>
 
 	<ul class="menu_user">
-	  <%= render 'users/menu/registration_items' %>
-	  <%= render 'users/menu/login_items' %>
-	  <%= render 'users/menu/watch' %>
+	  <%= render 'users/menu/items' %>
 	</ul>
 
 	<div class="contener_body">

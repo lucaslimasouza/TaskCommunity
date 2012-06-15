@@ -37,13 +37,11 @@ describe Watch do
 
 	def user_mock
 		@user_mock = mock_model(User)
-		#@user_mock.should_receive(:id).and_return(1)
 		@user_mock
 	end
 
 	def list_mock
 		@list_mock = mock_model(List)
-		#@list_mock.should_receive(:id).and_return(1)
 		@list_mock
 	end
 end

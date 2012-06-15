@@ -1,4 +1,6 @@
 <% if user_signed_in? %>
+session
+<% user_session[:user]%>
   <li>
 	<%= link_to('Home', root_path) %>
   </li>
@@ -19,7 +21,7 @@
   </li>
 
   <li id="user_watches">
-	<%= link_to 'My Watches', watches_user_path %>
+	<%= link_to 'My Watches', watches_path %>
   </li>
 
   <li>
