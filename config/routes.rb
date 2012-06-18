@@ -9,10 +9,7 @@ TaskCommunity::Application.routes.draw do
 	  get 'add',:on => :member
 	end
 
-  resources :users, :only => :show #do
-	#resources :lists
-	#resources :watches, :only => :index
-  #end
+  resources :users, :only => :show
 
   root :to => "home#index"
 
