@@ -1,5 +1,6 @@
 
 var List = function(){
+
 	var api = {};
 
 	api.remove_fields = function(link){
@@ -10,7 +11,6 @@ var List = function(){
 	api.add_fields = function(link, association, content){
 		var new_id = new Date().getTime();
   		var regexp = new RegExp("new_" + association, "g")
-		alert(regexp);
   		$('#tasks').append(content.replace(regexp, new_id));
 	};
 

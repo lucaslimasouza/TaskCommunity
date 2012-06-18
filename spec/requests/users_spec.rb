@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Users" do
   describe "GET /users" do
-    it "works! (now write some real specs)" do
+    it "works!" do
       get new_user_session_path
       response.status.should be(200)
     end

@@ -11,10 +11,5 @@ require 'spec_helper'
 #   end
 # end
 describe ListsHelper do
-	describe "add link" do
-		it "add a task link" do
-			@form = double(ActionView::Helpers::FormBuilder)
-			helper.add_task_link(@form).should eql("")
-		end
-	end
+
 end

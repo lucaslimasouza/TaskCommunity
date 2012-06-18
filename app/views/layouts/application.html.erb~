@@ -9,12 +9,12 @@
 </head>
 
 <body>
-<%= user_session.email%>
+
 <%= render 'layouts/contener_top'%>
 
 <div class="structure">
 
-	<p style="color: green"><%= flash[:notice] %></p>
+	<p id="message"><%= flash[:notice] %></p>
 
 	<ul class="menu_user">
 	  <%= render 'users/menu/items' %>

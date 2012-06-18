@@ -17,6 +17,4 @@ var list;
 $(document).ready(function(){
 
 	list = List();
-	alert("");
-
 });
