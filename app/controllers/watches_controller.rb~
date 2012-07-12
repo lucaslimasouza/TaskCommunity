@@ -1,4 +1,4 @@
-
+#enconding: utf-8
 class WatchesController < ApplicationController
 
 	def add
@@ -6,7 +6,6 @@ class WatchesController < ApplicationController
 		current_user.watch list
 		flash[:notice] = 'Successfully watched'
 		redirect_to root_path
-
 	end
 
 	def index

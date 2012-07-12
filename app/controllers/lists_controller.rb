@@ -1,5 +1,3 @@
-#encoding: utf-8
-
 class ListsController < ApplicationController
 
 	def index
@@ -30,11 +28,11 @@ class ListsController < ApplicationController
 	end
 
 	def show
-		@list = List.find(params[:id])
+		@list = current_user.lists.find(params[:id])
 	end
 
 	def destroy
-		@list = List.find(params[:id])
+		@list = current_user.lists.find(params[:id])
 		@list.destroy
 		respond_with @list
 	end

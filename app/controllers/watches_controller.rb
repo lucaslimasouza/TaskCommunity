@@ -1,4 +1,4 @@
-
+#enconding: utf-8
 class WatchesController < ApplicationController
 
 	def add

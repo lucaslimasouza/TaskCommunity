@@ -14,12 +14,12 @@ class User < ActiveRecord::Base
   has_many :watched_lists, :through => :watches, :source => :list
 
   def unwatch(list)
-	self.watches.where(:list_id => list.id).destroy_all
+	  self.watches.where(:list_id => list.id).destroy_all
   end
 
   def watch(list)
- 	watch = self.watches.build
-	watch.list_id = list.id
-	watch.save!
+ 	  watch = self.watches.build
+	  watch.list_id = list.id
+	  watch.save!
   end
 end
