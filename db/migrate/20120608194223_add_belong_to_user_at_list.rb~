@@ -1,4 +1,0 @@
-class AddBelongToUserAtList < ActiveRecord::Migration
-  def change
-  end
-end
