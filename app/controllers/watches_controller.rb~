@@ -2,24 +2,22 @@
 class WatchesController < ApplicationController
 
 	def add
-		@watch = Watch.new
-		@watch.list_id=(List.find(params[:id]).id)
-		@watch.user_id=(current_user.id)
-		if @watch.save
-			flash[:notice] = 'Successfully watched'
-			redirect_to root_path
-		end
+		list = List.public.find(params[:id])
+		current_user.watch list
+		flash[:notice] = 'Successfully watched'
+		redirect_to root_path
+
 	end
 
-	def user_watches
-		@user_watches = current_user.watches
+	def index
+		@user_watches = current_user.watched_lists.public
 		respond_with @user_watches
 	end
 
 	def destroy
-		@watch = Watch.find(params[:id])
-		@watch.destroy
-		respond_with @watch
+		list = List.find(params[:id])
+		current_user.unwatch list
+		redirect_to watches_path
 	end
 
 end

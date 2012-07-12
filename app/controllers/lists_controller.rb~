@@ -14,13 +14,13 @@ class ListsController < ApplicationController
 
 	def create
 		@list = List.new(params[:list])
-		@list.user_id=(1)
+		@list.user=(current_user)
 		@list.save
 		respond_with(@list)
 	end
 
 	def edit
-		@list = List.find(params[:id])
+		@list = current_user.lists.find(params[:id])
 	end
 
 	def update

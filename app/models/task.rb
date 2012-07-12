@@ -1,6 +1,6 @@
 class Task < ActiveRecord::Base
 
-  attr_accessible :name
+  attr_accessible :name, :done
 
   belongs_to :list
 

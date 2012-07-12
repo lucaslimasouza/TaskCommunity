@@ -20,7 +20,7 @@ class ListsController < ApplicationController
 	end
 
 	def edit
-		@list = List.find(params[:id])
+		@list = current_user.lists.find(params[:id])
 	end
 
 	def update
