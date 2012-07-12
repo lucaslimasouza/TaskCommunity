@@ -1,6 +1,8 @@
 <div id="task_input">
 	<%=f.label :name, 'Name Task' %><br />
 	<%=f.text_field :name, :size => 50 %>
-	<%=f.input :done %>
+	<% if f.object.persisted? %>
+		<%=f.input :done %>
+	<%end%>
 	<%=image_tag '/icons/icon_remove.png'%> <%= link_to_remove_fields("remove", f)%><br />
 </div>
