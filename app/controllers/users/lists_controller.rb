@@ -1,4 +1,4 @@
-class ListsController < ApplicationController
+class Users::ListsController < ApplicationController
 
 	def index
 		@user_lists = current_user.lists
@@ -14,7 +14,7 @@ class ListsController < ApplicationController
 		@list = List.new(params[:list])
 		@list.user=(current_user)
 		@list.save
-		respond_with(@list)
+    redirect_to user_lists_path(current_user)
 	end
 
 	def edit

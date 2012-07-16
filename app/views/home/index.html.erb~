@@ -1,4 +1,4 @@
-<h1>PUBLICS LISTS</h1>
+<h1>Publics Lists</h1>
 <% @lists_public.each do |list| %>
 	<div class="lists">
 

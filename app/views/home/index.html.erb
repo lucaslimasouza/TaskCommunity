@@ -3,7 +3,7 @@
 	<div class="lists">
 
 		<span id="list_name"><%=h list.name %></span>
-		 <%= link_to "Show and Watch", list_path(list) %>
+		 <%= link_to "Show and Watch", user_list_path(user_session,list) %>
 
 		<h3>Tasks</h3>
 

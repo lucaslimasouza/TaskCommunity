@@ -12,11 +12,11 @@
   </li>
 
   <li>
-  	<%= link_to('New List', new_list_path) %>
+  	<%= link_to('New List', new_user_list_path(current_user)) %>
   </li>
 
   <li>
-	<%= link_to('My Lists',lists_path) %>
+	<%= link_to('My Lists',user_lists_path(current_user)) %>
   </li>
 
   <li id="user_watches">
